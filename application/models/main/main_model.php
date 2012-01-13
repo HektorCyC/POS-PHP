@@ -19,13 +19,15 @@ class Main_Model extends CI_Model {
              $consulta = $this->db->get('productos');
              foreach ($consulta->result() as $row)
              {
+             $precio = $row->precio;
+             }
              $insert = array (
                 'producto' => $data['productos'],
                  'cantidad'=> $data['cantidad'],
                  'unitario' => $data['productos'],
-                 'valor'    => $row->precio*$data['cantidad'],);
+                 'valor'    => $precio*$data['cantidad'],);
              $this->db->insert('ventas', $insert);
-    }}
+    }
     function getProductos($id)
     {       
                 $data=array();
