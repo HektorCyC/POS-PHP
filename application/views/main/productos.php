@@ -3,6 +3,11 @@
 <head>
 	<meta charset="utf-8" />
 <?php 
+/**
+ * 
+ * @author Hector CyC Twitter: @hektorc 
+ * Mysnetwork.com
+ */
 foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
 <?php endforeach; ?>
