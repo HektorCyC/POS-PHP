@@ -1,11 +1,31 @@
 
 How to use: 
 
-Just upload the files and the sql file...configure your database as your own and enjoy :).
+Just upload the files and the sql file...
+configure your database as your own and enjoy :).
+
+Includes: 
+
+Codeigniter 2.1 Update if you need it.
+______________
 
 Cheers.
 
-<b>HektorCyC
+HektorCyC
 
-<br>Twitter @HektorC
-</b>
+Twitter @HektorC
+
+Como usar:
+
+Copia todos los archivos a tu carpeta de host y ejecuta el archivo sql en tu base de datos.
+
+Incluye:
+
+Codeigniter 2.1 actualiza si asi lo requieres.
+___________________________
+
+
+Hecho con amor por
+
+@Hektorc
+HektorCyC.
